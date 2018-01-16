@@ -1,0 +1,19 @@
+{
+  "name": "GuessNumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node --verbose specs",
+    "start": "node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  },
+  "devDependencies": {
+    "jasmine-node": "1.14.5"
+  }
+}
